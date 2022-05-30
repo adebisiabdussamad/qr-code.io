@@ -13,8 +13,9 @@ body {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-h3 {
+h1{
     margin: 0;
+    font-size: 17px;
 }
 
 p {
@@ -22,7 +23,7 @@ p {
     color: #99A1AE;
 }
 
-h3,
+h1,
 p {
     text-align: center;
 
