@@ -36,7 +36,10 @@ img {
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 13px;
+    position: relative;
+    margin-bottom: 20px;
+    bottom: -220px;
     text-align: center;
 }
 
