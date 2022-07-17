@@ -1,48 +1,52 @@
+html {
+    --color-white-400: hsl(0, 0%, 100%);
+    --color-gray-200: hsl(212, 45%, 89%);
+    --color-blue-200: hsl(220, 15%, 55%);
+    --color-blue-800: hsl(218, 44%, 22%);
+}
+
 body {
-    background-color: #D5E1EF;
-    margin: 0;
+    background-color: var(--color-gray-200);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
 }
 
-.main-div {
-    background-color: #ffffff;
-    width: 280px;
-    margin: 0 auto;
-    position: relative;
-    top: 130px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+main {
+    width: 18rem;
+    margin: 5rem auto;
+    padding: 1rem;
+    background-color: var(--color-white-400);
+    border-radius: 6px;
 }
 
-h1{
-    margin: 0;
-    font-size: 17px;
-}
-
-p {
-    padding: 8px 16px 40px 16px;
-    color: #99A1AE;
-}
-
-h1,
-p {
+h1 {
+    font-size: 1.3rem;
+    padding: 0 1rem;
+    color: var(--color-blue-800);
     text-align: center;
-
 }
 
 img {
-    width: 250px;
-    padding: 15px;
-    border-radius: 25px;
+    width: 18rem;
+    border-radius: 6px;
 }
 
-.attribution {
-    font-size: 13px;
-    position: relative;
-    margin-bottom: 20px;
-    bottom: -220px;
+p {
+    text-align: center;
+    padding: 0 1rem;
+    color: var(--color-blue-200);
+}
+
+footer {
     text-align: center;
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+footer a {
+    color: var(--color-blue-800);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
